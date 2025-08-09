@@ -6,6 +6,8 @@ def mask_account_card(payment: str) -> str:
     """
     Маскирует номер карты, оставляя первые 6 и последние 4 цифры,
     либо номер счета, оставляя последние 4 цифры
+
+    asoidjKAHDS
     """
     splitted_payment = payment.split()
     payment_type = splitted_payment[:-1]
